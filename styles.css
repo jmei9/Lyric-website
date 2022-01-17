@@ -16,7 +16,7 @@ body {
     font-size: 30px;
     line-height: 1in;
     text-align: center;
-    margin-bottom: 4in;
+    margin-bottom: 3in;
 }
 
 h2{
@@ -32,25 +32,33 @@ p{
 }
 
 
+/* MUFFIN 1*/
 
-.Muffin2-top img{
-    text-align: center;
-    height: auto;
-    max-height: 8in;
-    float: left;
-    position: absolute; 
-}
 
-.Muffin2-bot img{
-    text-align: center;
-    height: auto;
-    max-height: 8in;
-    position: relative; top: 0px; 
+/* MUFFIN 2 */
+    .Muffin2-top img{
+        text-align: center;
+        height: auto;
+        max-height: 8in;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .Muffin2-bot img{
+        text-align: center;
+        height: auto;
+        max-height: 8in;
+        position: relative; top: 0px; 
+        top: -5px;
+    }
+
+    .container2 {
+        display: flex; 
+        text-align: center;
+        margin-left: 1.9in;
+        margin-right: 2in;
+    }
+
+/* MUFFIN 3 */
     
-}
-
-.container {
-    text-align: center;
-}
-
 
