@@ -1,7 +1,7 @@
 
 
 body {
-    background:rgb(206, 161, 147);
+    background:rgb(238, 200, 182);
     margin-top: 2in;
     margin-left: 1in;
     margin-right: 1in;
@@ -18,33 +18,52 @@ body {
     text-align: center;
     margin-bottom: 3in;
 }
-
 h2{
     font-size: 30px;
 }
 p{
     font-size: 26px;
 }
-
 .arrow{
-    margin-top: 0.5in;
+    margin-top: 0.4in;
     line-height: 0px;
 }
 
 
-/* MUFFIN 1*/
+.lyrics {
+    line-height: 2in;
+    margin-bottom: 1in;
+}
+.m{
+    margin-top: 3in;
+    margin-bottom: 0px;
+    margin-left: 2.7in;
+    font-size: 30px;
+    font-family: fantasy;
 
+    text-align: center;
+    height: auto;
+    max-height: 8in;
+    position: absolute;
+    z-index: 1;
+}
 
-/* MUFFIN 2 */
-    .Muffin2-top img{
+/* MUFFIN */
+    .Muffin-top img{
         text-align: center;
         height: auto;
         max-height: 8in;
         position: absolute;
-        z-index: 1;
+        z-index: 2;
     }
 
-    .Muffin2-bot img{
+    .Muffin-top img:hover {
+        transform: translateY(-2.8in);
+        transform-origin: center;
+        transition-duration: 1.5s;
+    }
+
+    .Muffin-bot img{
         text-align: center;
         height: auto;
         max-height: 8in;
@@ -52,13 +71,10 @@ p{
         top: -5px;
     }
 
-    .container2 {
+    .container {
         display: flex; 
         text-align: center;
         margin-left: 1.9in;
         margin-right: 2in;
     }
-
-/* MUFFIN 3 */
-    
 
