@@ -61,6 +61,7 @@ p{
         transform: translateY(-2.8in);
         transform-origin: center;
         transition-duration: 1.5s;
+        transition-delay: 0.06s;
     }
 
     .Muffin-bot img{
